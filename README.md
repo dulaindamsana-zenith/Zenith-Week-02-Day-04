@@ -46,4 +46,4 @@ day-004-zenith_roadmap/
 
 ## License 
 
-this project is licensed under 3
+this project is licensed under BSD-3-Clause
