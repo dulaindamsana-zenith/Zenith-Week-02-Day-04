@@ -1,26 +1,25 @@
-# Zenith-Week-02-Day-04
-# 🛡️ Project Zenith v4.0 | Day 004: Linux File System & Permission Validator
+# Project Zenith v4.0 | Day 004: Linux File System & Permission Validator
 
 > **Operator**: Dula (Dulain Damsana)  
 > **Target**: Quantum Cyber Physics Foundation — Year 1 / Month 1 / Week 1  
-> **Environment**: Linux Mint XFCE (LTS) — 100% Terminal Native CLI  
+> **Environment**: EndeavourOS (Arch Linux) — 100% Terminal Native CLI  
 
 ---
 
-## 📌 Operational Objective
+## Operational Objective
 Automated Bash verification engine designed to programmatically construct nested directory hierarchies, audit octal file permissions (`chmod 755 / 644`), write directory tree logs, and enforce strict execution boundaries inside the Linux Mint XFCE shell environment.
 
 ---
 
-## ⚙️ Technical Specifications & Environment
-- **Operating System**: Linux Mint XFCE (LTS) 🐧
-- **Shell Interface**: GNU Bash v5+ 🐚
-- **Execution Engine**: Terminal-First Sandbox Container (Strict 120-Minute Isolation) ⏱️
+## Technical Specifications & Environment
+- **Operating System**: EndeavourOS XFCE (Arch Linux)
+- **Shell Interface**: GNU Bash v5+
+- **Execution Engine**: Terminal-First Sandbox Container (Strict 120-Minute Isolation)
 - **Core Commands Utilized**: `mkdir`, `chmod`, `ls`, `tree`, `cat`, `tee`, `chmod`, `stat`
 
 ---
 
-## 🚀 Script Features & Execution Logic
+## Script Features & Execution Logic
 1. **Automated Directory Setup**: Recursively builds system workspace folders (`bin/`, `logs/`, `config/`, `backup/`).
 2. **Permission Boundary Audit**: Enforces strict security flags (`700` for private scripts, `644` for log assets, `755` for execution binaries).
 3. **Directory Tree Logging**: Extracts detailed directory structures using `tree` and `ls -la` pipelines, outputting real-time reports to `/logs/system_audit.log`.
@@ -28,7 +27,7 @@ Automated Bash verification engine designed to programmatically construct nested
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 ```text
 day-004-zenith_roadmap/
 ├── README.md
@@ -43,3 +42,7 @@ day-004-zenith_roadmap/
 └── task_4.py
 └── task_5.py
 └── v_or_m.py
+
+## License 
+
+
