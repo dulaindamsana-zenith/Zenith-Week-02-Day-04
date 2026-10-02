@@ -43,7 +43,8 @@ day-004-zenith_roadmap/
 └── task_5.py
 └── v_or_m.py
 ```
+---
 
-## License 
+## License
 
-this project is licensed under BSD-3-Clause
+This project is licensed under BSD-3-Clause
